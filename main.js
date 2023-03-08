@@ -1,5 +1,5 @@
 import { addToCart, getTotalCartItems } from "./utils/common.js";
-import Storage from './node_modules/combo-storage/src/components/Storage.js'
+import Storage from '/node_modules/combo-storage/src/components/Storage.js'
 
 const quantityCart = document.querySelector('.quantity-cart');
 const key = "data";
