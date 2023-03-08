@@ -1,4 +1,4 @@
-import Storage from '../node_modules/combo-storage/src/components/Storage.js'
+import Storage from 'node_modules/combo-storage/src/components/Storage.js'
 
 let ls = new Storage(window.localStorage); // My new API library -.-! 
 
