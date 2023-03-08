@@ -1,7 +1,8 @@
 import { LocalStorage } from "../../combo-storage/src/index.js";
 import { getTotalCartItems, updateItemsToFirebase } from '../../utils/common.js';
 
-let ls = new Storage(window.localStorage); // My new API library -.-! 
+let ls = LocalStorage; // My new API library -.-! 
+
 const key = "data";
 const subtotal = document.querySelector('.subtotal');
 const totalItems = document.querySelector('.total-items');
