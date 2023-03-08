@@ -1,6 +1,6 @@
-import Storage from 'node_modules/combo-storage/src/components/Storage.js'
+import { LocalStorage } from "../node_modules/combo-storage/src/index.js";
 
-let ls = new Storage(window.localStorage); // My new API library -.-! 
+let ls = LocalStorage; // My new API library -.-! 
 
 export function addToCart(storage_name, payload) {
     let data = ls.get(storage_name) ? ls.get(storage_name) : [];

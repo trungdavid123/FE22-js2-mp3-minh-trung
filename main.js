@@ -1,14 +1,11 @@
 import { addToCart, getTotalCartItems } from "./utils/common.js";
-import Storage from 'node_modules/combo-storage/src/components/Storage.js'
-
-
-
+import { LocalStorage } from "./node_modules/combo-storage/src/index.js";
 
 
 const quantityCart = document.querySelector('.quantity-cart');
 const key = "data";
 
-let ls = new Storage(window.localStorage); // My new API library -.-! 
+let ls = LocalStorage; // My new API library -.-! 
 
 function getTotalQuantity() {
     let totalQuantityCart = ls.get(key) ? getTotalCartItems(key) : [];
