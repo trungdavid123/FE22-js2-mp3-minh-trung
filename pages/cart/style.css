@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.item {
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    margin: 1rem 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.buttons button {
+    padding: 1rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.total {
+    text-align: center;
+    margin: 2rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+nav a {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+nav {
+    margin: 1rem;
+}

@@ -9,7 +9,7 @@ header {
     left: 1rem;
     //z-index: 100; */
     width: 100%;
-} 
+}
 
 header .container {
     height: 8rem;
@@ -29,15 +29,18 @@ header .container {
 
 } */
 
-.item{
+.item {
     padding: 1rem;
     border: 1px solid black;
-    
+}
+
+.cart i {
+    font-size: 2rem;
 }
 
 
 .items {
-    
+
     list-style: none;
 }
 
@@ -71,6 +74,29 @@ header .container {
     color: #666666;
     line-height: 22px;
     margin-top: 10px;
+}
+
+.add_cart {
+    cursor: pointer;
+}
+
+.cart {
+    text-decoration: none;
+    position: relative;
+}
+
+.quantity-cart {
+    position: absolute;
+    font-size: 1rem;
+    top: -18px;
+    right: -15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sold-out {
+    pointer-events: none;
+    border: 5px solid red;
+    opacity: .5;
 }
 
 @media(max-width:800px) {
