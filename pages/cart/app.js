@@ -1,4 +1,4 @@
-import Storage from '../../node_modules/combo-storage/src/components/Storage.js'
+import { LocalStorage } from "../../combo-storage/src/index.js";
 import { getTotalCartItems, updateItemsToFirebase } from '../../utils/common.js';
 
 let ls = new Storage(window.localStorage); // My new API library -.-! 
