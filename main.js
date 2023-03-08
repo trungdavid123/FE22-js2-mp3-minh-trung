@@ -2,6 +2,7 @@ import { addToCart, getTotalCartItems } from "./utils/common.js";
 import { LocalStorage } from "./node_modules/combo-storage/src/index.js";
 
 
+
 const quantityCart = document.querySelector('.quantity-cart');
 const key = "data";
 
