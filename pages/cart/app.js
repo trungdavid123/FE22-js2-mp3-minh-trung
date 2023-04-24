@@ -1,4 +1,4 @@
-import { LocalStorage } from "../../combo-storage/src/index.js";
+import { LocalStorage } from '../../node_modules/combo-storage/src/index.js';
 import { getTotalCartItems, updateItemsToFirebase } from '../../utils/common.js';
 
 let ls = LocalStorage; // My new API library -.-! 
@@ -8,8 +8,6 @@ const subtotal = document.querySelector('.subtotal');
 const totalItems = document.querySelector('.total-items');
 const checkOutBtn = document.querySelector('.checkout-btn');
 const removeBtn = document.querySelector('.remove-btn');
-
-
 
 let data = ls.get(key);
 
